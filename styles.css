@@ -1,0 +1,72 @@
+/*================ BASE =================*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --bg-color: #f5f5f5;
+    --main-text: #262626;
+    --sub-text: #797675;
+    --lpu-pallate:#8c0001;
+}
+
+a{
+    color: var(--main-text);
+}
+
+/*================ REUSABLE  =================*/
+.container{
+
+}
+
+/*================ HEADER  ===================*/
+.header{
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    width: 100%;
+    position: sticky;
+    background-color: white;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 20%;
+    transition: all .50s ease;
+}
+
+.navlogo i{
+    color: var(--lpu-pallate);
+    font-size: 36px;
+    margin-right: 3px;
+}
+
+span{
+    color: var(--lpu-pallate);
+    font-size: 36px;
+    font-family: 'changa one',sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    font-size: 16px;
+}
+
+.reg-btn{
+    outline: none;
+    background:none;
+    cursor: pointer;
+    font-size: 16px;
+    color: var(--lpu-pallate);
+    border: solid var(--lpu-pallate) 1px;
+    border-radius: 3px;
+    padding: 0.3rem 0.7rem;
+}
