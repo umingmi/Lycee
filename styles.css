@@ -37,7 +37,6 @@ a{
     justify-content: space-between;
     align-items: center;
     padding: 1rem 20%;
-    transition: all .50s ease;
 }
 
 .navlogo i{
@@ -69,4 +68,106 @@ span{
     border: solid var(--lpu-pallate) 1px;
     border-radius: 3px;
     padding: 0.3rem 0.7rem;
+}
+
+.menu{
+    align-items: center;
+    cursor: pointer;
+    font-size: 28px;
+    color: var(--main-text);
+}
+
+.form-container input[type=text]{
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.form a{
+    color: var(--lpu-pallate);
+}
+
+.form-btn{
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    background-color: var(--lpu-pallate);
+    width: 100%;
+    padding: 10px 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.form-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 48px 0 48px 0;
+}
+
+#head{
+    font-size: 38px;
+    font-weight: 400;
+    color: var(--main-text);
+}
+
+#sub{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--sub-text);
+}
+
+.password{
+    margin: 30px 30px 30px 30px;
+}
+
+.password label{
+    text-align: start;
+    margin-right: 10px;
+}
+
+.no-account{
+    margin: 20px 0 20px 0;
+}
+.form-container{
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 700px 0;
+    padding: 50px 10px 50px 0;
+    border-radius: 5px;
+    color: var(--main-text);
+}
+
+.tos{
+    margin-bottom: 15px;
+}
+
+
+@media(min-width:991px){
+    .menu{
+        display: none;
+    }
+}
+
+@media(max-width:991px){
+
+    .header{
+        box-shadow: 0 0 0;
+    }
+
+    .navbar{
+       position: absolute;
+       top: 58px;
+       left: 0;
+       flex-direction: column;
+       width: 100%;
+       align-items:start;
+       padding: 1rem 20%;
+       background-color: white;
+       box-shadow: 0 0.1rem rgba(0, 0, 0, 0.1);
+    }
 }

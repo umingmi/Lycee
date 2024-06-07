@@ -24,13 +24,18 @@
     <body>
         <!--============== HEADER ===============-->
         <header class="header">
-            <a href="#" class="navlogo">
+            <a href="index.php" class="navlogo">
                 <i class="ri-outlet-fill"></i><span>Lycee</span>
             </a>
             <ul class="navbar">
-                <li><a href="Login">Login</a></li>
-                <li><a href="Register"><button class="reg-btn">Register</button></a></li>
+                <li><a href="login.php">Login</a></li>
+                <li><a href="register.php"><button class="reg-btn">Register</button></a></li>
             </ul>
+            <div class="menu">
+                <i class="ri-menu-fill"></i>
+            </div>
         </header>
+
+       
     </body>
 </html>
