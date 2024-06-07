@@ -24,7 +24,7 @@
     <body>
         <!--============== HEADER ===============-->
         <header class="header">
-            <a href="index.php" class="navlogo">
+            <a href="#" class="navlogo">
                 <i class="ri-outlet-fill"></i><span>Lycee</span>
             </a>
             <ul class="navbar">
@@ -45,13 +45,13 @@
             </div>
         </div>
         <div class="form-container">
-            <form method="post">
+            <form action="home.php" method="post">
                 <label for="username">Username:</label><br>
-                <input type="text" id="username" name="username">
+                <input type="text" id="uname" name="uname">
                 <br>
                 <br>
                 <label for="password">Password:</label><br>
-                <input type="text" id="username" name="password">
+                <input type="password" id="pwd" name="pwd">
                 <br>
 
                 <div class="password">
@@ -60,7 +60,7 @@
                     </label>
                     <a href="#">Forgot password?</a>
                 </div>
-                <button class="form-btn" type="submit">Login</button>
+                <button class="form-btn" type="submit" name="login" value="login">Login</button>
                 <div class="no-account">
                     <p>Don't have an account? <a href="register.php">Register</a> </p>
                 </div>

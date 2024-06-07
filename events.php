@@ -13,6 +13,9 @@
 
         <!--============== REMIX ICON ===============-->
         <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"rel="stylesheet"/>
+
+        <!--============== FONTAWESOME ===============-->
+        <script src="https://kit.fontawesome.com/40b126a0f6.js" crossorigin="anonymous"></script>
         
         <!--============== FONT ===============-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,19 +26,39 @@
 
     <body>
         <!--============== HEADER ===============-->
+
         <header class="header">
-            <a href="index.php" class="navlogo">
+            <a href="home.php" class="navlogo">
                 <i class="ri-outlet-fill"></i><span>Lycee</span>
             </a>
             <ul class="navbar">
-                <li><a href="login.php">Login</a></li>
-                <li><a href="register.php"><button class="reg-btn">Register</button></a></li>
+                <li><a href="events.php">Home</a></li>
+                <li><a href="events.php">Events</a></li>
+                <li><a href="events.php">Clubs</a></li>
+                <li><a href="events.php">Departments</a></li>
+                <li><a href="events.php">Profile</a></li>
             </ul>
             <div class="menu">
                 <i class="ri-menu-fill"></i>
             </div>
         </header>
 
-       
+
+
+
+        
+        <div class="footer-main">
+            <div class="footer-container">
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and Condition</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <hr>
+                <p>© 2024 Lycee All Rights Reserved.  </p>
+            </div>
+        </div>
+        
     </body>
 </html>
