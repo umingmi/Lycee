@@ -145,6 +145,72 @@
                 Vestibulum ante</p>
             </div>
         </div>
+
+        <div class="home-header"> 
+                <h1>Future Development</h1>
+        </div>
+
+        <div class="ffeatures">
+            <div class="fleft">
+                <h1>Full event info</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Suspendisse maximus gravida nisi eget semper. 
+                    Duis efficitur nulla vitae eros vehicula, in rhoncus diam rutrum. 
+                    Quisque vestibulum non ante in sollicitudin. 
+                    Duis dictum dui ut viverra efficitur. 
+                    Pellentesque non dignissim augue, sed molestie nisl. 
+                    Vestibulum ante</p>
+            </div>
+            <div class="fright">
+                <img id="img1" src="Assets/evt_details.png" alt="" width="300px">
+                <img src="Assets/booths.png" alt="" width="300px">
+            </div>
+        </div>
+
+        <div class="features-main">
+            <div class="features-container">
+                <div class="center">
+                </div>
+                
+                <div class="features1">
+                    <div class="fleft">
+                        <h1>Discover</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse maximus gravida nisi eget semper. Duis efficitur nulla vitae eros vehicula, in rhoncus diam rutrum. Quisque vestibulum non ante in sollicitudin. Duis dictum dui ut viverra efficitur. Pellentesque non dignissim augue, sed molestie nisl. Vestibulum ante</p>
+                    </div>
+                    <div class="fright">
+                        <img src="Assets/discover.png" alt="" width="300px">
+                    </div>
+                    
+                </div>
+                <div class="features1">
+                    <div class="fleft">
+                        <h1>Clubs</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse maximus gravida nisi eget semper. Duis efficitur nulla vitae eros vehicula, in rhoncus diam rutrum. Quisque vestibulum non ante in sollicitudin. Duis dictum dui ut viverra efficitur. Pellentesque non dignissim augue, sed molestie nisl. Vestibulum ante</p>
+                    </div>
+                    <div class="fright">
+                        <img src="Assets/organization.png" alt="" width="300px">
+                    </div>
+                </div>
+                <div class="features1">
+                    <div class="fleft">
+                        <h1>Department</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse maximus gravida nisi eget semper. Duis efficitur nulla vitae eros vehicula, in rhoncus diam rutrum. Quisque vestibulum non ante in sollicitudin. Duis dictum dui ut viverra efficitur. Pellentesque non dignissim augue, sed molestie nisl. Vestibulum ante</p>
+                    </div>
+                    <div class="fright">
+                        <img src="Assets/departments.png" alt="" width="300px">
+                    </div>
+                </div>
+                <div class="features1">
+                    <div class="fleft">
+                        <h1>Profiler</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse maximus gravida nisi eget semper. Duis efficitur nulla vitae eros vehicula, in rhoncus diam rutrum. Quisque vestibulum non ante in sollicitudin. Duis dictum dui ut viverra efficitur. Pellentesque non dignissim augue, sed molestie nisl. Vestibulum ante</p>
+                    </div>
+                    <div class="fright">
+                        <img src="Assets/profile.png" alt="" width="300px">
+                    </div>
+                </div>
+            </div>
+        </div>
     
         <!--============== FOOTER ===============-->
         <div class="footer-main">

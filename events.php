@@ -43,10 +43,30 @@
             </div>
         </header>
 
+        <?php 
+        @include 'config.php';
 
+        $sql = "SELECT * FROM events";
+        $result = mysqli_query($conn, $sql);
 
+        while($row = mysqli_fetch_assoc($result)){
+            $name = $row["name"];
+            $desc = $row["description"];
+            $date = $row["date"];
+            $img = $row["img"]; 
+            ?>
 
-        
+        <div class="cards-container">
+            <img src="uploads/<?php echo $img; ?>.jpg">
+            <div class="left">
+                <p><?php echo $name; ?></p>
+                <p><?php echo $desc; ?></p>
+            </div>
+            <div class="right">
+                <p><?php echo $date; ?></p>
+            </div>
+        </div>
+    <?php } ?>
         <div class="footer-main">
             <div class="footer-container">
                 <ul>
